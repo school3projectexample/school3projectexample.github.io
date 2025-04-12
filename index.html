@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Пекарня</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-image: url('bg.jpg');
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            min-height: 100vh;
+            color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .page-header {
+            text-align: center;
+            padding: 25vh 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .page-header h1 {
+            font-size: 4.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+        }
+
+        .page-header p {
+            font-size: 2em;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.6;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+            color: white;
+        }
+
+        .content {
+            background-color: white;
+            color: #333;
+            padding: 80px 0;
+        }
+
+        .content-group {
+            max-width: 900px;
+            margin: 0 auto 60px;
+            padding: 0 20px;
+        }
+
+        h2 {
+            color: #555;
+            margin: 0 0 25px;
+            font-size: 2em;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        .image-text-block {
+            display: flex;
+            align-items: flex-start;
+            gap: 50px;
+            margin-bottom: 60px;
+        }
+
+        .image-text-block img {
+            width: 300px;
+            height: auto;
+            object-fit: cover;
+        }
+
+        .image-text-block .text {
+            flex: 0 1 650px;
+        }
+
+        p {
+            line-height: 1.8;
+            margin-bottom: 20px;
+            color: #666;
+            font-size: 1.5em;
+        }
+
+        ul {
+            margin: 25px 0 25px 30px;
+            font-size: 1.1em;
+        }
+
+        li {
+            margin-bottom: 12px;
+            color: #444;
+            font-size: 1.5em;
+        }
+
+        .contacts {
+            margin-top: 40px;
+        }
+
+        .contacts p {
+            margin-bottom: 15px;
+            font-size: 1.2em;
+        }
+    </style>
+</head>
+<body>
+<div class="page-header">
+    <div class="container">
+        <h1>ПЕКАРНЯ</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+    </div>
+</div>
+
+<div class="content">
+    <div class="content-group">
+        <div class="image-text-block">
+            <img src="misc1.png">
+            <div class="text">
+                <h2>Что мы продаём:</h2>
+                <ul>
+                    <li>consectetur adipiscing elit, 150 гр., 60 р.</li>
+                    <li>sed do eiusmod tempor, 60 гр., 30 р.</li>
+                    <li>incididunt ut labore, 230 гр., 130 р.</li>
+                    <li>et dolore magna aliqua, 200 р.</li>
+                    <li>ut enim ad minim veniam, 90 р.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="image-text-block">
+            <img src="misc2.png">
+            <div class="text">
+                <h2>Как мы печём:</h2>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-group">
+        <h2>Контактные данные:</h2>
+        <div class="contacts">
+            <p>Телефон - +7(9922)2425-16-34</p>
+            <p>Адрес - 999000, lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+            <p>Эл. почта - lorem_ipsum@example.fr</p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
